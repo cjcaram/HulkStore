@@ -65,7 +65,7 @@ public class Product {
   }
   
   @Override
-  public int hashCode() {
-      return Objects.hash(id, name, quantity, description);
+  public String toString() {
+    return "Identificador: " + id + " Cantidad en stock: " +  quantity + " Nombre: " + name + " Descripción: "+ description;
   }
 }

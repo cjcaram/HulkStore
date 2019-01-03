@@ -2,9 +2,11 @@ package main.com.todo1.uitls;
 
 public enum MenuOptions {
   INSERT(1, "Insertar un producto nuevo."),
-  REMOVE(2, "Retirar un producto."),
-  LIST(3, "Listar Productos"),
-  EXIT(4, "Salir.");
+  ADD(2, "Agregar Stock"),
+  WITHDRAW(3, "Retirar Stock de un producto."),
+  REMOVE(4, "Eliminar Producto."),
+  LIST(5, "Listar Productos"),
+  EXIT(6, "Salir.");
 
   private String optionMsg;
   private int optionValue;
